@@ -2,7 +2,7 @@
 
 A production-grade live streaming platform built with **NestJS + TypeScript** (backend) and **React JSX** (frontend).
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Backend:  NestJS + TypeScript + Prisma ORM + PostgreSQL + Socket.io
@@ -33,7 +33,7 @@ Controllers → Services → Repositories → Database (Prisma)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -77,7 +77,7 @@ sudo nginx
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Auth
 | Method | Endpoint | Description |
@@ -127,7 +127,7 @@ sudo nginx
 
 ---
 
-## 🔧 OBS Configuration
+## OBS Configuration
 
 ```
 Server:     rtmp://localhost/live
@@ -138,7 +138,7 @@ Find your stream key on the Dashboard page after logging in.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 server/
@@ -182,7 +182,7 @@ frontend/
 
 ---
 
-## 🔐 Security
+##  Security
 
 - Passwords hashed with **bcrypt** (12 rounds)
 - **JWT** authentication on protected routes
